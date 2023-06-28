@@ -33,6 +33,6 @@ class PedestrianDetector():
           agnostic_mode=False)
     return image_with_detections
     # cv2.imshow(image_with_detections)
-detector=PedestrianDetector(path_to_model=r'C:\Users\91805\TF2_detection\exported-models\my-faster-rcnn\saved_model',
-                                        path_to_label_map=r'C:\Users\91805\TF2_detection\exported-models\my-faster-rcnn\label_map.pbtxt')
-detector.detect_from_img(r'C:\Users\91805\TF2_detection\uploads\CrossWalk_(5465840138).jpg')
+# detector=PedestrianDetector(path_to_model=r'TF2_detection\exported-models\my-faster-rcnn\saved_model',
+#                                         path_to_label_map=r'TF2_detection\exported-models\my-faster-rcnn\label_map.pbtxt')
+# detector.detect_from_img(r'C:\Users\91805\TF2_detection\uploads\CrossWalk_(5465840138).jpg')
