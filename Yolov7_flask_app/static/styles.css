@@ -1,0 +1,29 @@
+header h1 {
+    background-color:rgb(93, 194, 237);
+    text-align: center;
+    color: rgb(115, 18, 63);
+    margin: 2%;
+    padding: 1%;
+}
+section{height: 400px;
+    background-color:rgb(157, 211, 240);
+    padding: 1%;
+    margin: 2%;
+    float: left;
+    right:clear;    
+}
+form {background-color:rgb(115, 175, 234);
+    padding: 1%;
+    margin: 2%;
+}
+legend {
+    color:rgb(58, 52, 9);
+    padding: 1%;
+    margin: 2%;
+}
+img{
+    height: 400px;
+    padding: 1%;
+    margin: 2%;
+    float: right; 
+}

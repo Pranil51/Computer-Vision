@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Detection</title>
+
+    <link rel="stylesheet" href="{{url_for('static',filename='styles.css')}}">
+</head>
+<body>
+    <header>
+        <h1>Detect Pedestrians</h1>
+    </header>
+    <br>
+    <section>
+        <div>
+            <p> Note : Upload '.png', '.jpg' , '.jpeg' files only</p>
+        </div>
+        <br>
+        <div class='box'>
+            <form method=post enctype="multipart/form-data">
+                <legend> Upload Image File</legend>
+                <input name="picture" type="file" id="fileName" accept="image/png, image/gif, image/jpeg"/>
+                <button class="btn btn-lg btn-primary btn-block" type="submit">Detect Object</button>    
+            </form>
+        </div>
+    </section>
+    <br>
+    <div>
+        <img src="{{ img_path }}" alt="No image"/>
+    </div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{{ form.hidden_tag() }}
+            <legend>Upload Image</legend>
+            <div class="form-group">
+                {{ form.image.label(class="custom-file-label")}}
+
+                {% if form.image.errors%}
+                    {{form.image(class="custom-file-input is-invalid")}} 
+                    <div class="invalid-feedback">
+                        {% for error in form.image.errors%}
+                        <span>{{error}}</span>
+                        {% endfor %}
+                    </div>
+                {% else %}
+                    {{form.image(class="custom-file-input")}}
+                {% endif %}   
+            </div>
