@@ -12,3 +12,5 @@ Make sure you have installed flask and other required python dependancies.
 3. Yolov7_flask app - Fine tuned Yolo v7 Model on custom vehicle data.
     detects- 1) Car , 2) Motorcycle , 3) Truck , 4)  Ambulance , 5)
   trained on - colab https://colab.research.google.com/drive/1mLGgUJJY5_vqnTMCY3dFkjgJ707oQRcu?usp=sharing
+4. Unet - Instance Segmantaion using Unet for Medical Image data
+   trained model on colab https://colab.research.google.com/drive/1Q_YVWohemq-Gq_5qknYWYapQvpwYWqBC?usp=drive_link
