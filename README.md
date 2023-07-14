@@ -1,13 +1,16 @@
 # Computer-Vision
 Fine-tuning, Object detection tasks completed during computer vision internship at Netra AI.
 The Overall task is to learn concepts, fine-tune the models and deploy locally using flask.
-
-Download anyone of above folder and run the app.py file. 
-Make sure you have installed flask and other required python dependancies.
+Deploy Model-->
+-Download anyone of above folder and run the app.py file. 
+-Make sure you have installed flask and other required python dependancies.
+-For tf2_detection, download weights from here - https://drive.google.com/file/d/1yRrA50i1ABI_8GknyTa8gUjtjAL4R7P-/view?usp=sharing
+-Paste these weights in "TF2_detection\exported-models\my-faster-rcnn\saved_model\variables" folder
 
 1. TF2_detection -  fine tuned tensorflow model  on custom pedestrains labelled data.
     detects- Person/pedestrains
     trained on colab - https://colab.research.google.com/drive/1mugrhVOJ9zQdFhDkZpaW77agWDyo_YJy?usp=sharing
+   
     ![image](https://github.com/Pranil51/Computer-Vision/assets/96012190/8b9ba0ee-06e5-442f-a27e-6919eef4825d)
 
 
