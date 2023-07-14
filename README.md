@@ -3,8 +3,11 @@ Fine-tuning, Object detection tasks completed during computer vision internship 
 The Overall task is to learn concepts, fine-tune the models and deploy locally using flask.
 Deploy Model-->
 -Download anyone of above folder and run the app.py file. 
+
 -Make sure you have installed flask and other required python dependancies.
+
 -For tf2_detection, download weights from here - https://drive.google.com/file/d/1yRrA50i1ABI_8GknyTa8gUjtjAL4R7P-/view?usp=sharing
+
 -Paste these weights in "TF2_detection\exported-models\my-faster-rcnn\saved_model\variables" folder
 
 1. TF2_detection -  fine tuned tensorflow model  on custom pedestrains labelled data.
