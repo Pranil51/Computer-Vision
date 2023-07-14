@@ -29,8 +29,8 @@ def detect():
               basepath = os.path.dirname(__file__)
               filepath = os.path.join(basepath,'uploads',filename)
               f.save(filepath)
-              detector=PedestrianDetector(path_to_model=r'./TF2_detection/exported-models/my-faster-rcnn/saved_model',
-                                          path_to_label_map=r'./TF2_detection/exported-models/my-faster-rcnn/label_map.pbtxt')
+              detector=PedestrianDetector(path_to_model='./exported-models/my-faster-rcnn/saved_model',
+                                          path_to_label_map='./exported-models/my-faster-rcnn/label_map.pbtxt')
               detection_img=detector.detect_from_img(filepath)
               print('Successfully detected')
               detected_img_path = os.path.join("static/detections/" , filename)             
